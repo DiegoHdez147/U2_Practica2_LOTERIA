@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="@color/white"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnJugar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="18dp"
+        android:layout_y="635dp"
+        android:text="Play"
+        tools:layout_editor_absoluteX="74dp"
+        tools:layout_editor_absoluteY="610dp" />
+
+    <Button
+        android:id="@+id/btnBasta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="272dp"
+        android:layout_y="634dp"
+        android:text="Loteria" />
+
+    <Button
+        android:id="@+id/btnBarajar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="131dp"
+        android:layout_y="636dp"
+        android:text="Barajear" />
+
+    <ImageView
+        android:id="@+id/cartaImagen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="14dp"
+        android:layout_y="15dp"
+        app:srcCompat="@drawable/carta1" />
+
+    <TextView
+        android:id="@+id/ultimas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="117dp"
+        android:layout_y="699dp"
+        android:text=""
+        android:visibility="invisible"/>
+
+</AbsoluteLayout>
